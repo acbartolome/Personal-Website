@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    /* position: sticky; */
 }
 
 #linksLeft {
@@ -27,7 +26,16 @@ a:hover {
 
 /* Index Main */
 
+#aboutContainer {
+    display: flex;
+}
+
 #profilePicture {
     height: 300px;
     width: auto;
+    display: flex;
+}
+
+#openingWords {
+    font-size: 30px;
 }
