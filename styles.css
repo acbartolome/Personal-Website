@@ -29,7 +29,7 @@ a:hover {
     font-size: 20px;
 }
 
-/* Index Main */
+/* Home Page */
 
 #aboutContainer {
     display: flex;
@@ -42,4 +42,27 @@ a:hover {
 
 #openingWords {
     font-size: 30px;
+}
+
+
+/* About Me Page */
+
+#aboutMeTitle {
+    font-size: 32px;
+}
+
+.hobbyName {
+    font-size: 24px;
+}
+
+.hobbyContainer {
+    display: inline-block;
+    border-top: 2px solid black;
+}
+
+.aboutMePicture {
+    height: 200px;
+    width: auto;
+    float: right;
+    margin: 0 24px 24px 24px;
 }
