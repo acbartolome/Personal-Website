@@ -12,3 +12,9 @@ For Part 1 the goal of this project is to use the limited knowledge we have to c
 At this point we know basic HTML, CSS, and very little JavaScript. We would need to first create our Home Page, About Me, and Portfolio with HTML then style it with CSS.
 
 Afterwards we will still need to implement our JavaScript with no expectation to make the website interative.
+
+The home page will include my nav bar that will appear in all 3 pages of my website. Along with a picture and descrioption. It will also include a quot.
+
+The About Me page will include some of my hobbies and interest.
+
+The portfolio page will include some of my work that I have coded/completed.
