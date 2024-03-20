@@ -24,6 +24,11 @@ a:hover {
     text-decoration: underline;
 }
 
+#quote {
+    text-align: center;
+    font-size: 20px;
+}
+
 /* Index Main */
 
 #aboutContainer {
@@ -33,7 +38,6 @@ a:hover {
 #profilePicture {
     height: 300px;
     width: auto;
-    display: flex;
 }
 
 #openingWords {
