@@ -30,11 +30,14 @@ a:hover {
 /* Home Page */
 #homeContainer {
     display: block;
+    /* max-width: 80vw; */
 }
 
 #profilePicture {
+    float: left;
     height: 300px;
     width: auto;
+    padding: 10px;
 }
 
 #openingWords {
@@ -45,7 +48,7 @@ a:hover {
 #quote {
     text-align: center;
     font-size: 20px;
-
+}
 /* About Me Page */
 
 #aboutMeTitle {
