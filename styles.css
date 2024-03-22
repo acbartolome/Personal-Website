@@ -57,15 +57,17 @@ a:hover {
     font-size: 32px;
 }
 
-.hobbyName {
-    font-size: 24px;
-}
 
 .hobbyContainer {
     display: inline-block;
     border-top: 2px solid black;
+    padding: 10px;
+    margin: 20px;
 }
 
+.hobbyName {
+    font-size: 24px;
+}
 .aboutMePicture {
     height: 200px;
     width: auto;
@@ -78,13 +80,11 @@ a:hover {
 
 #projectHeader {
     font-size: 32px;
-}
-
-.projectContainer {
-    display: inline-block;
+    margin: 24px;
 }
 
 .projects {
+    display: inline-block;
     border: 2px solid black;
     padding: 10px;
     margin: 20px;
@@ -97,7 +97,7 @@ a:hover {
 }
 
 .projectImage {
-    height: 160px;
+    height: 200px;
     width: auto;
     float: right;
     margin: 0 24px 24px 24px;
