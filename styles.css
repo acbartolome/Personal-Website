@@ -29,7 +29,7 @@ a:hover {
 /* footer */
 footer {
     background-color: black;
-    height: 50px;
+    height: 40px;
     padding: 10px;
     position: fixed;
     left: 0;
@@ -39,7 +39,7 @@ footer {
 }
 
 .socialsLink {
-    height: 50px;
+    height: 35px;
 }
 
 /* Index Main */
