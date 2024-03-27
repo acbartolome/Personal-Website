@@ -46,21 +46,27 @@ footer {
 
 /* Home Page */
 #homeContainer {
-    display: block;
+    display: inline-block;
     /* max-width: 80vw; */
 }
 
+#pictureContainer {
+    display: inline-block;
+}
+
 #profilePicture {
-    float: left;
     height: 300px;
     width: auto;
     padding: 10px;
 }
 
+#aboutContainer {
+    display: flex;
+}
+
 #openingWords {
     font-size: 30px;
 }
-
 
 #quote {
     text-align: center;
@@ -136,9 +142,13 @@ input[type=text] {
     padding: 15px 18px;
     margin: 6px;
     display: inline-block;
-    border: 2px solid black;
+    border: 2px solid #ccc;
     border-radius: 4px;
     /* box-sizing: border-box; */
+}
+
+input[type=text]:focus {
+    border: 2px solid black;
 }
 
 input[type=submit] {
