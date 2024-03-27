@@ -26,26 +26,47 @@ a:hover {
     text-decoration: underline;
 }
 
+/* footer */
+footer {
+    background-color: black;
+    height: 40px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.socialsLink {
+    height: 35px;
+}
 
 /* Index Main */
 
 /* Home Page */
 #homeContainer {
-    display: block;
+    display: inline-block;
     /* max-width: 80vw; */
 }
 
+#pictureContainer {
+    display: inline-block;
+}
+
 #profilePicture {
-    float: left;
     height: 300px;
     width: auto;
     padding: 10px;
 }
 
+#aboutContainer {
+    display: flex;
+}
+
 #openingWords {
     font-size: 30px;
 }
-
 
 #quote {
     text-align: center;
@@ -60,10 +81,12 @@ a:hover {
 
 
 .hobbyContainer {
-    display: inline-block;
+    display: flex;
     border-top: 2px solid black;
     padding: 10px;
     margin: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hobbyName {
@@ -104,4 +127,46 @@ a:hover {
     width: auto;
     float: right;
     margin: 0 24px 24px 24px;
+}
+
+
+/* Contact Page */
+
+#contactHeader {
+    font-size: 32px;
+    margin: 24px;
+}
+
+input[type=text] {
+
+    width: 300px;
+    padding: 15px 18px;
+    margin: 6px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    padding: 15px 18px;
+    margin: 6px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=text]:focus {
+    border: 2px solid black;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 10px 22px;
+    margin: 4px 2px;
 }
