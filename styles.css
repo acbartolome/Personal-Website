@@ -171,3 +171,10 @@ input[type=submit] {
     padding: 10px 22px;
     margin: 4px 2px;
 }
+
+
+/* success page */
+#thanks {
+    text-align: center;
+    font-size: 32px;
+}
