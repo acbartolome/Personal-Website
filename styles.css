@@ -82,7 +82,7 @@ footer {
 
 
 .hobbyContainer {
-    display: flex;
+    display: inline-block;
     border-top: 2px solid black;
     padding: 10px;
     margin: 20px;
@@ -93,10 +93,14 @@ footer {
 .hobbyName {
     font-size: 24px;
 }
+
+.right {
+    display: block;
+}
 .aboutMePicture {
-    height: 200px;
-    width: auto;
-    float: right;
+    height: auto;
+    width: 350px;
+    /* float: right; */
     margin: 0 24px 24px 24px;
 }
 
