@@ -1,22 +1,83 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
+/* Add media query to make pages dynamic with resolutions */
+/* mobile */
+@media screen and (min-width: 350px) {
+    #aboutMeTitle {
+        font-size: 1.5em;
+        margin: 1rem;
+    }
+    footer {
+        height: 2rem;
+        padding: 0.625rem;
+    }
+    .navContainer {
+        padding: 0.625rem;
+    }
+    #linksLeft {
+        padding: 0.625rem;
+    }
+    .socialsLink {
+        height: 2rem !important;
+    }
+    #profilePicture {
+        height: auto;
+        width: 16rem;
+        padding: 0.625rem;
+    }
+    #openingWords {
+        font-size: 1.5rem;
+    }
+    #quote {
+        font-size: 1.25rem;
+    }
+}
 
-
+@media screen and (min-width: 900px) {
+    #aboutMeTitle {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+    footer {
+        height: 2rem;
+        padding: 0.625rem;
+    }
+    .navContainer {
+        padding: 0.625rem;
+    }
+    #linksLeft {
+        padding: 0.625rem;
+    }
+    .socialsLink {
+        height: 2rem !important;
+    }
+    #profilePicture {
+        height: auto;
+        width: 18rem;
+        padding: 0.625rem;
+    }
+    #openingWords {
+        font-size: 2rem;
+    }
+    #quote {
+        font-size: 1.5rem;
+    }
+}
 
 /* nav bar */
 .navContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 #linksLeft {
     color: black;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 a:link {
@@ -30,8 +91,8 @@ a:hover {
 /* footer */
 footer {
     background-color: black;
-    height: 40px;
-    padding: 10px;
+    /* height: 40px;
+    padding: 10px; */
     position: fixed;
     left: 0;
     right: 0;
@@ -40,7 +101,7 @@ footer {
 }
 
 .socialsLink {
-    height: 35px;
+    height: 32px;
 }
 
 /* Index Main */
@@ -48,37 +109,36 @@ footer {
 /* Home Page */
 #homeContainer {
     display: inline-block;
-    /* max-width: 80vw; */
 }
 
 #pictureContainer {
     display: inline-block;
 }
 
-#profilePicture {
+/* #profilePicture {
     height: 300px;
     width: auto;
     padding: 10px;
-}
+} */
 
 #aboutContainer {
     display: flex;
 }
 
-#openingWords {
+/* #openingWords {
     font-size: 30px;
-}
+} */
 
 #quote {
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 /* About Me Page */
 
-#aboutMeTitle {
+/* #aboutMeTitle {
     font-size: 32px;
     margin: 24px;
-}
+} */
 
 
 .hobbyContainer {
@@ -174,4 +234,11 @@ input[type=submit] {
     color: white;
     padding: 10px 22px;
     margin: 4px 2px;
+}
+
+
+/* success page */
+#thanks {
+    text-align: center;
+    font-size: 32px;
 }
