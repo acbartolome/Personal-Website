@@ -179,14 +179,14 @@ footer {
 } */
 
 .right {
-    display: block;
+    display: inline-block;
 }
-/* .aboutMePicture {
-    height: auto;
-    width: 350px;
-    float: right;
-    margin: 0 24px 24px 24px;
-} */
+.aboutMePicture {
+    /* height: auto;
+    width: 350px; */
+    /* float: right; */
+    /* margin: 0 24px 24px 24px; */
+}
 
 
 /* Portfolio Page */
