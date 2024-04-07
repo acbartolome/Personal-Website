@@ -3,7 +3,6 @@
     font-size: 1rem;
 }
 
-/* Add media query to make pages dynamic with resolutions */
 /* mobile */
 @media screen and (min-width: 350px) {
     #aboutMeTitle {
@@ -182,12 +181,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 10px; */
 }
 
 #linksLeft {
     color: black;
-    /* padding: 10px; */
 }
 
 a:link {
@@ -201,8 +198,6 @@ a:hover {
 /* footer */
 footer {
     background-color: black;
-    /* height: 40px;
-    padding: 10px; */
     position: fixed;
     left: 0;
     right: 0;
@@ -215,7 +210,6 @@ footer {
 }
 
 /* Index Main */
-
 /* Home Page */
 #homeContainer {
     display: inline-block;
@@ -225,113 +219,48 @@ footer {
     display: inline-block;
 }
 
-/* #profilePicture {
-    height: 300px;
-    width: auto;
-    padding: 10px;
-} */
-
 #aboutContainer {
     display: flex;
 }
 
-/* #openingWords {
-    font-size: 30px;
-} */
-
 #quote {
     text-align: center;
-    /* font-size: 20px; */
 }
+
 /* About Me Page */
-
-/* #aboutMeTitle {
-    font-size: 32px;
-    margin: 24px;
-} */
-
-
 .hobbyContainer {
     display: inline-block;
     border-top: 2px solid black;
-    /* padding: 10px;
-    margin: 20px; */
     justify-content: center;
     align-items: center;
 }
 
-/* .hobbyName {
-    font-size: 24px;
-} */
-
 .right {
     display: inline-block;
 }
-/* .aboutMePicture {
-    height: auto;
-    width: 350px;
-    float: right;
-    margin: 0 24px 24px 24px;
-} */
 
 
 /* Portfolio Page */
-
-/* #projectHeader {
-    font-size: 32px;
-    margin: 24px;
-} */
-
 .projects {
     display: inline-block;
     border: 2px solid black;
-    /* padding: 10px;
-    margin: 20px; */
     background-color: 	#899499;
     color: white;
 }
-/* .projectName {
-    font-size: 24px;
-} */
-/* .projectContent {
-    padding: 5px;
-} */
 
 .projectImage {
-    /* height: 200px;
-    width: auto; */
     float: right;
-    /* margin: 0 24px 24px 24px; */
 }
 
 
 /* Contact Page */
-
-/* #contactHeader {
-    font-size: 32px;
-    margin: 24px;
-} */
-
 input[type=text] {
-
-    /* width: 300px;
-    padding: 15px 18px;
-    margin: 6px;
-    display: inline-block; */
     border: 2px solid #ccc;
-    /* border-radius: 4px; */
-    /* box-sizing: border-box; */
 }
 
 textarea {
-    /* width: 300px;
-    height: 100px;
-    padding: 15px 18px;
-    margin: 6px; */
     border: 2px solid #ccc;
-    /* border-radius: 4px; */
     background-color: #f8f8f8;
-    /* font-size: 16px; */
     resize: none;
 }
 
@@ -342,13 +271,10 @@ input[type=text]:focus {
 input[type=submit] {
     background-color: black;
     color: white;
-    /* padding: 10px 22px;
-    margin: 4px 2px; */
 }
 
 
 /* success page */
 #thanks {
     text-align: center;
-    /* font-size: 32px; */
 }
