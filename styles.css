@@ -191,29 +191,29 @@ footer {
 
 /* Portfolio Page */
 
-#projectHeader {
+/* #projectHeader {
     font-size: 32px;
     margin: 24px;
-}
+} */
 
 .projects {
     display: inline-block;
     border: 2px solid black;
-    padding: 10px;
-    margin: 20px;
+    /* padding: 10px;
+    margin: 20px; */
     background-color: 	#899499;
     color: white;
 }
-.projectName {
+/* .projectName {
     font-size: 24px;
-}
-.projectContent {
+} */
+/* .projectContent {
     padding: 5px;
-}
+} */
 
 .projectImage {
-    height: 200px;
-    width: auto;
+    /* height: 200px;
+    width: auto; */
     float: right;
     margin: 0 24px 24px 24px;
 }
