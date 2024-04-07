@@ -46,6 +46,21 @@
         width: 18rem;
         margin: 0 1.5rem 1.5rem 1.5rem;
     }
+    .projects {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .projectName {
+        font-size: 1.25rem;
+    }
+    .projectContent {
+        padding: 0.313rem;
+    }
+    .projectImage {
+        height: auto;
+        width: 18rem;
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -85,6 +100,21 @@
         font-size: 1.5rem;
     }
     .aboutMePicture {
+        height: auto;
+        width: 22rem;
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
+    .projects {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .projectName {
+        font-size: 1.5rem;
+    }
+    .projectContent {
+        padding: 0.313rem;
+    }
+    .projectImage {
         height: auto;
         width: 22rem;
         margin: 0 1.5rem 1.5rem 1.5rem;
@@ -181,12 +211,12 @@ footer {
 .right {
     display: inline-block;
 }
-.aboutMePicture {
-    /* height: auto;
-    width: 350px; */
-    /* float: right; */
-    /* margin: 0 24px 24px 24px; */
-}
+/* .aboutMePicture {
+    height: auto;
+    width: 350px;
+    float: right;
+    margin: 0 24px 24px 24px;
+} */
 
 
 /* Portfolio Page */
@@ -215,7 +245,7 @@ footer {
     /* height: 200px;
     width: auto; */
     float: right;
-    margin: 0 24px 24px 24px;
+    /* margin: 0 24px 24px 24px; */
 }
 
 
