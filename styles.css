@@ -34,6 +34,24 @@
     #quote {
         font-size: 1.25rem;
     }
+    #projectHeader {
+        font-size: 1.75rem;
+        margin: 1rem;
+    }
+    .projects {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .projectName {
+        font-size: 1.25rem;
+    }
+    .projectContent {
+        padding: 0.313rem;
+    }
+    .projectImage {
+        height: 200px;
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -64,6 +82,20 @@
     }
     #quote {
         font-size: 1.5rem;
+    }
+    #projectHeader {
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+    .projects {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .projectName {
+        font-size: 1.5rem;
+    }
+    .projectContent {
+        padding: 0.313rem;
     }
 }
 
@@ -160,36 +192,36 @@ footer {
 .aboutMePicture {
     height: auto;
     width: 350px;
-    /* float: right; */
+    float: right;
     margin: 0 24px 24px 24px;
 }
 
 
 /* Portfolio Page */
 
-#projectHeader {
+/* #projectHeader {
     font-size: 32px;
     margin: 24px;
-}
+} */
 
 .projects {
     display: inline-block;
     border: 2px solid black;
-    padding: 10px;
-    margin: 20px;
+    /* padding: 10px;
+    margin: 20px; */
     background-color: 	#899499;
     color: white;
 }
-.projectName {
+/* .projectName {
     font-size: 24px;
-}
-.projectContent {
+} */
+/* .projectContent {
     padding: 5px;
-}
+} */
 
 .projectImage {
-    height: 200px;
-    width: auto;
+    /* height: 200px;
+    width: auto; */
     float: right;
     margin: 0 24px 24px 24px;
 }
