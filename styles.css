@@ -34,6 +34,18 @@
     #quote {
         font-size: 1.25rem;
     }
+    .hobbyContainer {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .hobbyName {
+        font-size: 1.25rem;
+    }
+    .aboutMePicture {
+        height: auto;
+        width: 18rem;
+        margin: 0 1.5rem 1.5rem 1.5rem;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -64,6 +76,18 @@
     }
     #quote {
         font-size: 1.5rem;
+    }
+    .hobbyContainer {
+        padding: 0.625rem;
+        margin: 1.25rem;
+    }
+    .hobbyName {
+        font-size: 1.5rem;
+    }
+    .aboutMePicture {
+        height: auto;
+        width: 22rem;
+        margin: 0 1.5rem 1.5rem 1.5rem;
     }
 }
 
@@ -144,25 +168,25 @@ footer {
 .hobbyContainer {
     display: inline-block;
     border-top: 2px solid black;
-    padding: 10px;
-    margin: 20px;
+    /* padding: 10px;
+    margin: 20px; */
     justify-content: center;
     align-items: center;
 }
 
-.hobbyName {
+/* .hobbyName {
     font-size: 24px;
-}
+} */
 
 .right {
     display: block;
 }
-.aboutMePicture {
+/* .aboutMePicture {
     height: auto;
     width: 350px;
-    /* float: right; */
+    float: right;
     margin: 0 24px 24px 24px;
-}
+} */
 
 
 /* Portfolio Page */
